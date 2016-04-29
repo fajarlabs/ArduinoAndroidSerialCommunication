@@ -48,17 +48,17 @@ public class MainActivity extends AppCompatActivity {
                     JSONObject obj = new JSONObject();
                         if((lock.get("red") == null) ||(lock.get("red") == false)) {
                             try {
-                                obj.put("command", "r");
+                                obj.put("command", "c");
                                 lock.put("red",true);
-                                btnLmpMerah.setText("Merah Hidup");
+                                btnLmpMerah.setText("Lampu C Hidup");
                             }catch (Exception e) {
                                 e.printStackTrace();
                             }
                         } else {
                             try {
-                                obj.put("command", "R");
+                                obj.put("command", "C");
                                 lock.put("red",false);
-                                btnLmpMerah.setText("Merah Mati");
+                                btnLmpMerah.setText("Lampu C Mati");
                             }catch (Exception e) {
                                 e.printStackTrace();
                             }
@@ -80,17 +80,17 @@ public class MainActivity extends AppCompatActivity {
                     JSONObject obj = new JSONObject();
                     if((lock.get("yellow") == null) ||(lock.get("yellow") == false)) {
                         try {
-                            obj.put("command", "y");
+                            obj.put("command", "b");
                             lock.put("yellow",true);
-                            btnLmpKuning.setText("Kuning Hidup");
+                            btnLmpKuning.setText("Lampu B Hidup");
                         }catch (Exception e) {
                             e.printStackTrace();
                         }
                     } else {
                         try {
-                            obj.put("command", "Y");
+                            obj.put("command", "B");
                             lock.put("yellow",false);
-                            btnLmpKuning.setText("Kuning Mati");
+                            btnLmpKuning.setText("Lampu B Mati");
                         }catch (Exception e) {
                             e.printStackTrace();
                         }
@@ -111,17 +111,17 @@ public class MainActivity extends AppCompatActivity {
                     JSONObject obj = new JSONObject();
                     if((lock.get("green") == null) ||(lock.get("green") == false)) {
                         try {
-                            obj.put("command", "g");
+                            obj.put("command", "a");
                             lock.put("green",true);
-                            btnLmpHijau.setText("Hijau Hidup");
+                            btnLmpHijau.setText("Lampu A Hidup");
                         }catch (Exception e) {
                             e.printStackTrace();
                         }
                     } else {
                         try {
-                            obj.put("command", "G");
+                            obj.put("command", "A");
                             lock.put("green",false);
-                            btnLmpHijau.setText("Hijau Mati");
+                            btnLmpHijau.setText("Lampu A Mati");
                         }catch (Exception e) {
                             e.printStackTrace();
                         }
