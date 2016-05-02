@@ -1,4 +1,4 @@
-package us.fajar.arduino.util;
+package us.fajar.app.socket.util;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -7,7 +7,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 
-public class FSocket {
+public class SocketClientUtil {
 	private String servername;
 	private String port;
 	private Socket socket;
@@ -49,7 +49,7 @@ public class FSocket {
 		}
 	}
 	
-	public String getResponse() {
+	public String receiveData() {
         InputStream inFromServer = null;
 		try {
 			inFromServer = socket.getInputStream();
@@ -98,12 +98,12 @@ public class FSocket {
   		  }
 	}
 
-	public FSocket(String servername, String port) {
+	public SocketClientUtil(String servername, String port) {
 		setServername(servername);
 		setPort(port);
 	}
 	
-	public FSocket() {
+	public SocketClientUtil() {
 		
 	}
 	

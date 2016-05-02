@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="us.fajar.arduino.controller.MainActivity">
+    tools:context="us.fajar.app.MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -49,14 +49,21 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Lampu Merah"
-                android:id="@+id/btnLmpMerah" />
+                android:text="Sinkronisasi"
+                android:id="@+id/btnSynchronizer" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Lampu Kuning"
-                android:id="@+id/btnLmpKuning"
+                android:text="Saklar A : OFF"
+                android:id="@+id/btnSaklarA" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Saklar B : OFF"
+                android:id="@+id/btnSaklarB"
+                android:layout_below="@+id/btnSaklarA"
                 android:layout_alignTop="@+id/scrollView"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true" />
@@ -64,9 +71,17 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="LAMPU HIJAU"
-                android:id="@+id/btnLmpHijau"
-                android:layout_below="@+id/btnLmpKuning"
+                android:text="Saklar C : OFF"
+                android:id="@+id/btnSaklarC"
+                android:layout_below="@+id/btnSaklarB"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Saklar D : OFF"
+                android:id="@+id/btnSaklarD"
+                android:layout_below="@+id/btnSaklarC"
                 android:layout_centerHorizontal="true" />
         </LinearLayout>
     </ScrollView>

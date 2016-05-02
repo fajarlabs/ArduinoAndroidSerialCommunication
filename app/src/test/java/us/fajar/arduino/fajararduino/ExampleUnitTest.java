@@ -1,4 +1,4 @@
-package us.fajar.arduino.controller;
+package us.fajar.app.controller;
 
 import org.junit.Test;
 

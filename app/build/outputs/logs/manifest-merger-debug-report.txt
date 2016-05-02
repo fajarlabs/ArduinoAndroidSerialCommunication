@@ -4,7 +4,7 @@ ADDED from C:\Users\masfajar\AndroidStudioProjects\FajarArduino\app\src\main\And
 	xmlns:android
 		ADDED from C:\Users\masfajar\AndroidStudioProjects\FajarArduino\app\src\main\AndroidManifest.xml:2:11-69
 	package
-		ADDED from C:\Users\masfajar\AndroidStudioProjects\FajarArduino\app\src\main\AndroidManifest.xml:3:5-42
+		ADDED from C:\Users\masfajar\AndroidStudioProjects\FajarArduino\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from C:\Users\masfajar\AndroidStudioProjects\FajarArduino\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\masfajar\AndroidStudioProjects\FajarArduino\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -31,10 +31,10 @@ MERGED from [com.android.support:support-v4:23.1.1] C:\Users\masfajar\AndroidStu
 		ADDED from C:\Users\masfajar\AndroidStudioProjects\FajarArduino\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
 		ADDED from C:\Users\masfajar\AndroidStudioProjects\FajarArduino\app\src\main\AndroidManifest.xml:10:9-40
-activity#us.fajar.arduino.controller.MainActivity
+activity#us.fajar.app.MainActivity
 ADDED from C:\Users\masfajar\AndroidStudioProjects\FajarArduino\app\src\main\AndroidManifest.xml:11:9-17:20
 	android:name
-		ADDED from C:\Users\masfajar\AndroidStudioProjects\FajarArduino\app\src\main\AndroidManifest.xml:11:19-74
+		ADDED from C:\Users\masfajar\AndroidStudioProjects\FajarArduino\app\src\main\AndroidManifest.xml:11:19-59
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from C:\Users\masfajar\AndroidStudioProjects\FajarArduino\app\src\main\AndroidManifest.xml:12:13-16:29
 action#android.intent.action.MAIN
